@@ -11,10 +11,10 @@ from follow_protocol import follow_protocol
 import time
 
 
-bot = InstaBot(login="username", password="password",
+bot = InstaBot(login="gymrat_packs", password="LaurenEmma0920",
                like_per_day=1000,
                comments_per_day=0,
-               tag_list=['follow4follow', 'f4f', 'cute'],
+               tag_list=['gymlife', 'gymlife', 'gains', 'gymmemes', 'crossfit', 'fitness', 'bodybuilding', 'motivationmonday', 'doyouevenlift', 'gymmotivation', '', 'gym', 'whateverittakes', 'fitnessaddict'],
                tag_blacklist=['rain', 'thunderstorm'],
                user_blacklist={},
                max_like_for_one_tag=50,
@@ -32,8 +32,7 @@ bot = InstaBot(login="username", password="password",
                                        'travel','art','shop','store','sex','toko','jual','online','murah','jam','kaos','case','baju','fashion',
                                         'corp','tas','butik','grosir','karpet','sosis','salon','skin','care','cloth','tech','rental',
                                         'kamera','beauty','express','kredit','collection','impor','preloved','follow','follower','gain',
-                                        '.id','_id','bags'],
-               unfollow_whitelist=['example_user_1','example_user_2'])
+                                        '.id','_id','bags'])
 while True:
 
     #print("# MODE 0 = ORIGINAL MODE BY LEVPASHA")
