@@ -11,7 +11,7 @@ from follow_protocol import follow_protocol
 import time
 
 
-bot = InstaBot(login="gymrat_packs", password="LaurenEmma0920",
+bot = InstaBot(login="username", password="pw",
                like_per_day=1000,
                comments_per_day=0,
                tag_list=['gymlife', 'gymlife', 'gains', 'gymmemes', 'crossfit', 'fitness', 'bodybuilding', 'motivationmonday', 'doyouevenlift', 'gymmotivation', '', 'gym', 'whateverittakes', 'fitnessaddict'],
