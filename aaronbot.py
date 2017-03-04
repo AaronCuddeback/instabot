@@ -11,14 +11,14 @@ from follow_protocol import follow_protocol
 import time
 
 
-bot = InstaBot(login="username", password="pw",
-               like_per_day=1000,
+bot = InstaBot(login="gymrat_packs", password="LaurenEmma0920",
+               like_per_day=600,
                comments_per_day=0,
                tag_list=['gymlife', 'gymlife', 'gains', 'gymmemes', 'crossfit', 'fitness', 'bodybuilding', 'motivationmonday', 'doyouevenlift', 'gymmotivation', '', 'gym', 'whateverittakes', 'fitnessaddict'],
                tag_blacklist=['rain', 'thunderstorm'],
                user_blacklist={},
                max_like_for_one_tag=50,
-               follow_per_day=300,
+               follow_per_day=0,
                follow_time=1*60,
                unfollow_per_day=300,
                unfollow_break_min=15,
